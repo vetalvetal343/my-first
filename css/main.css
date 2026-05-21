@@ -39,7 +39,7 @@ body {
 	text-decoration: underline;
 	color: #2196F3;
 }
-.nav {
+.nav ul {
 	display: flex;
 	justify-content: space-between;
 	width: 294px;
@@ -50,21 +50,27 @@ body {
 	line-height: 100%;
 	letter-spacing: 0.02em;
 	color: black;
+	list-style-type: none;
+	gap: 50px;
 }
 .item_nav1 {
 	color:#2196F3;
 	cursor: pointer;
+	text-decoration: none;
 }
 .item_nav2 {
 	color: black;
+	text-decoration: none;
 }
 .item_nav3 {
 	color: black;
+	text-decoration: none;
 }
 .right_nav {
 	display: flex;
 	justify-content: space-between;
 	gap: 20px;
+	list-style-type: none;
 }
 .mail {
 	width: 135px;
@@ -110,8 +116,9 @@ body {
 }
 .item_hero {
 	display: flex;
+	list-style-type: none;
 }
-.item_hero h4 {
+.item_hero h3 {
 	font-family: roboto;
 	font-weight: 900;
 	font-style: 14px;
@@ -131,7 +138,13 @@ body {
 	color: #757575;
 	text-align: center;
 }
-.hero_2 h3 {
+.hero_2 ul {
+	display: flex;
+	row-gap: 30px;
+	list-style-type: none;
+	gap: 30px;
+}
+.hero_2 h4 {
 	font-family: roboto;
 	font-weight: 700;
 	font-style: 36px;
@@ -163,10 +176,10 @@ body {
 .hero_teem {
 	display: flex;
 	justify-content: space-around;
+	list-style-type: none;
 }
 .teem img {
 	width: 270px;
-	height: 368px;
 	margin-bottom: 0;
 }
 .hero_teem_text {

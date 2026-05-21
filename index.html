@@ -4,103 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/lamp.png">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 	<header class="header">
 		<div class="conteiner">
-			<h3 class="web">Web<span class="black">Studio</span></h3>
+			<a href="index.html"><h3 class="web">Web<span class="black">Studio</span></h3></a>
 			<nav class="nav">
-				<a class="item_nav1" href="#">Студия</a>
-				<a class="item_nav2" href="#">Портфолио</a>
-				<a class="item_nav3" href="#">Контакты</a>
+				<ul>
+					<li><a class="item_nav1" href="#">Студия</a></li>
+					<li><a class="item_nav2" href="#">Портфолио</a></li>
+					<li><a class="item_nav3" href="#">Контакты</a></li>
+				</ul>
 			</nav>
-			<nav class="right_nav">
-				<a class="mail" href="mailto">info@devstudio.com</a>
-				<a class="namber">+38 096 111 11 11</a>
-			</nav>
+			<ul class="right_nav">
+					<li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+					<li><a class="namber" href="tel:+380961111111">+38 096 111 11 11</a></li>
+			</ul>
 		</div>	
 	</header>
-	<section class="hero">
-		<h1 class="hero_text">Эффективные решения для вашего бизнеса</h1>
-		<button class="hero_button">Заказать услугу</button>
-	</section>
-	<section class="hero_1">
-		<div class="conteiner">
-			<div class="item_hero">
-				<div class="item_hero_1">
-					<h4>Внимание к деталям</h4>
-					<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-				</div>
-				<div class="item_hero_1">
-					<h4>Пунктуальность</h4>
-					<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-				</div>
-				<div class="item_hero_1">
-					<h4>Планирование</h4>
-					<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-				</div>
-				<div class="item_hero_1">
-					<h4>Современные технологии</h4>
-					<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-				</div>
+	<main>
+		<section class="hero">
+			<h1 class="hero_text">Эффективные решения для вашего бизнеса</h1>
+			<button class="hero_button">Заказать услугу</button>
+		</section>
+		<section class="hero_1"> 
+			<div class="conteiner">
+				<ul class="item_hero">
+					<li class="item_hero_1">
+						<h3>Внимание к деталям</h3>
+						<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+					</li>
+					<li class="item_hero_1">
+						<h3>Пунктуальность</h3>
+						<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+					</li>
+					<li class="item_hero_1">
+						<h3>Планирование</h3>
+						<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+					</li>
+					<li class="item_hero_1">
+						<h3>Современные технологии</h3>
+						<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+					</li>
+
+				</ul>
 
 			</div>
 
-		</div>
-
-	</section>
-	<section class="hero_2">
-		<h3>Чем мы занимаемся</h3>
-		<div class="conteiner">
-			<img src="./img/box 1.png">
-			<img src="./img/box 2.png">
-			<img src="./img/box 3.png">
-		</div>
-
-	</section>
-	<section>
-		<div class="hero_3">
-			<h3>Наша команда</h3>
-			<div class="hero_teem">
-				<div class="teem">
-					<img src="./img/img.png">
-					<div class="hero_teem_text">
-						<h5>Игорь Демьяненко</h5>
-						<p>Product Designer</p>
-					</div>
-				</div>
-				<div class="teem">
-					<img src="./img/img (1).png">
-					<div class="hero_teem_text">
-						<h5>Игорь Демьяненко</h5>
-						<p>Product Designer</p>
-					</div>
-				</div>
-				<div class="teem">
-					<img src="./img/img (2).png">
-					<div class="hero_teem_text">
-						<h5>Игорь Демьяненко</h5>
-						<p>Product Designer</p>
-					</div>
-				</div>
-				<div class="teem">
-					<img src="./img/img (3).png">
-					<div class="hero_teem_text">
-						<h5>Игорь Демьяненко</h5>
-						<p>Product Designer</p>
-					</div>
-				</div>
+		</section>
+		<section class="hero_2">
+			<h4>Чем мы занимаемся</h4>
+			<div class="conteiner">
+				<ul>
+					<li><img src="./img/box 1.png" alt="images"></li>
+					<li><img src="./img/box 2.png" alt="images"></li>
+					<li><img src="./img/box 3.png" alt="images"> </li>
+				</ul>
 			</div>
-		</div>	
-	</section>
+
+		</section>
+		<section>
+			<div class="hero_3">
+				<div class="conteiner">
+					<h3>Наша команда</h3>
+					<ul class="hero_teem">
+						<li class="teem">
+							<img src="./img/img.png" alt="images">
+							<div class="hero_teem_text">
+								<h5>Игорь Демьяненко</h5>
+								<p>Product Designer</p>
+							</div>
+						</li>
+						<li  class="teem">
+							<img src="./img/img (1).png" alt="images">
+							<div class="hero_teem_text">
+								<h5>Игорь Демьяненко</h5>
+								<p>Product Designer</p>
+							</div>
+						</li>
+						<li class="teem">
+							<img src="./img/img (2).png" alt="images">
+							<div class="hero_teem_text">
+								<h5>Игорь Демьяненко</h5>
+								<p>Product Designer</p>
+							</div>
+						</li>
+						<li class="teem">
+							<img src="./img/img (3).png" alt="images">
+							<div class="hero_teem_text">
+								<h5>Игорь Демьяненко</h5>
+								<p>Product Designer</p>
+							</li>
+						</div>
+					</ul>
+				</div>
+			</div>	
+		</section>
+	</main>
 	<footer class="footer">
 		<ul class="list">
-			<p class="web">Web<span class="light">Studio</span></p>
+			<li class="web">
+			<a href="index.html"> Web <span class="light">Studio</span></a>
+			</li>
 			<li>г. Киев, пр-т Леси Украинки, 26</li>
-			<li>info@example.com</li>
-			<li>+38 099 111 11 11</li>
+			<li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+			<li><a class="namber" href="tel:+380961111111">+38 096 111 11 11</a></li>
 		</ul>
 	</footer>
 </body>
