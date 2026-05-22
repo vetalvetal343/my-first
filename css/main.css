@@ -8,6 +8,15 @@ html {
 body {
 	margin: 0;
 }
+.section {
+	padding: 94px 0px;
+}
+.section not (:first-child){
+	padding: 0;
+} 
+.hidden {
+	visibility: hidden;
+}
 .conteiner {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -22,10 +31,13 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+.header a {
+	text-decoration: none;
+}
 .web {
 	width: 145px;
 	height: 31px;
-	font-family: Raleway;
+	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 100%;
@@ -44,7 +56,7 @@ body {
 	justify-content: space-between;
 	width: 294px;
 	height: 16px;
-	font-family: roboto;
+	font-family: 'roboto';
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 100%;
@@ -52,6 +64,7 @@ body {
 	color: black;
 	list-style-type: none;
 	gap: 50px;
+	margin-right: 93px;
 }
 .item_nav1 {
 	color:#2196F3;
@@ -90,25 +103,26 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 200px 452px;
+	padding: 200px 0;
 }
 .hero_text {
 	width: 696px;
-	font-family: roboto;
+	font-family: 'roboto';
 	font-weight: 900;
-	font-style: 44px;
+	font-size: 44px;
 	line-height: 60px;
 	letter-spacing: 0.06em;
 	color: #ffffff;
 	text-align: center;
+	text-transform: uppercase;
 }
 .hero_button {
 	background-color: #2196F3;
 	width: 200px;
 	height: 50px;
-	background-repeat: 4px;
+	border-radius: 4px;
 	color: #ffffff;
-	font-family: roboto;
+	font-family: 'roboto';
 	font-weight: 700px;
 	font-size: 16px;
 	line-height: 30px;
@@ -119,9 +133,9 @@ body {
 	list-style-type: none;
 }
 .item-text {
-	font-family: roboto;
+	font-family: 'roboto';
 	font-weight: 900;
-	font-style: 14px;
+	font-size: 14px;
 	line-height: 100%;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
@@ -130,13 +144,13 @@ body {
 	text-align: center;
 }
 .item_hero_1 {
-	font-family: roboto;
+	font-family: 'roboto';
 	font-weight: 400;
-	font-style: 14px;
+	font-size: 14px;
 	line-height: 124%;
 	letter-spacing: 0.03em;
 	color: #757575;
-	text-align: center;
+	text-align: left;
 }
 .hero_2 ul {
 	display: flex;
@@ -144,10 +158,10 @@ body {
 	list-style-type: none;
 	gap: 30px;
 }
-.hero_2 h4 {
-	font-family: roboto;
+.hero_2 .contens {
+	font-family: 'roboto';
 	font-weight: 700;
-	font-style: 36px;
+	font-size: 36px;
 	line-height: 100%;
 	letter-spacing: 0.03em;
 	color: #212121;
@@ -162,11 +176,11 @@ body {
 	width: 100%;
 	background-color: #F5F4FA;
 }
-.hero_3 h3 {
+.hero_3 .contens {
 	text-align: center;
 	margin-top: 94px;
 	margin-bottom: 50px;
-	font-family:roboto;
+	font-family: 'roboto';
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 100%;
@@ -177,6 +191,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
+	gap: 30px;
 }
 .teem img {
 	width: 270px;
@@ -188,7 +203,7 @@ body {
 	margin-top: 0;
 } 
 .text {
-	font-family:roboto;
+	font-family:'roboto';
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 100%;
@@ -197,7 +212,7 @@ body {
 	text-align: center;
 }
 .item-text_2 {
-	font-family:roboto;
+	font-family:'roboto';
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 100%;
@@ -209,6 +224,9 @@ body {
 	width: 100%;
 	background-color: #2F303A;
 	border: 3px solid #2196F3;
+}
+.footer a {
+	text-decoration: none;
 }
 .list {
 display:flex;
@@ -222,7 +240,7 @@ list-style-type: none;
 	color: #ffffff;
 }
 .list li {
-	font-family:roboto;
+	font-family:'roboto';
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
