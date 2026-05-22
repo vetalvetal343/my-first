@@ -250,6 +250,12 @@ body {
 .header a {
 	text-decoration: none;
 }
+.left-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 93px;
+}
 .web {
 	width: 145px;
 	height: 31px;
