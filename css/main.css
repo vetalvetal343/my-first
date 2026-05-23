@@ -288,9 +288,12 @@ body {
 	gap: 50px;
 }
 .item_nav1 {
-	color:#2196F3;
+	color:black;
 	cursor: pointer;
 	text-decoration: none;
+}
+.item_nav1:hover {
+	color: #2196F3;
 }
 .item_nav2 {
 	color: black;
@@ -303,14 +306,18 @@ body {
 .right_nav {
 	display: flex;
 	justify-content: space-between;
-	gap: 20px;
+	gap: 50px;
 	list-style-type: none;
 }
 .mail {
 	width: 135px;
 	height: 16px;
-	color: #2196F3;
+	color:black;
 	cursor: pointer;
+	font-family:'roboto';
+}
+.mail:hover {
+	color: #2196F3;
 }
 .namber {
 	width: 122px;
@@ -345,14 +352,16 @@ body {
 	border-radius: 4px;
 	color: #ffffff;
 	font-family: 'roboto',sans-serif;
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.06em;
+	border: none;
 }
 .item_hero {
 	display: flex;
 	list-style-type: none;
+	gap: 30px;
 }
 .item-text {
 	font-family: 'roboto',sans-serif;
@@ -461,6 +470,12 @@ body {
 	width: 145px;
 	height: 31px;
 	margin-bottom: 20px;
+}
+.mail_1 {
+	color:#ffffff;
+}
+.mail_1:hover {
+	color: #2196F3;
 }
 .list {
 display:flex;
