@@ -238,8 +238,8 @@ body {
 	padding: 0px 15px;
 }
 .header {
-	background-color:#ECECEC;
-	padding: 32px;
+	background-color:#ffffff;
+	padding: 10px 0;
 }  
 .header .conteiner {
 	width: 100%;
@@ -249,7 +249,9 @@ body {
 }
 .header a {
 	text-decoration: none;
+	padding: 25px 0;
 }
+
 .left-center {
 	display: flex;
 	justify-content: center;
@@ -257,8 +259,6 @@ body {
 	gap: 93px;
 }
 .web {
-	width: 145px;
-	height: 31px;
 	font-family: 'Raleway',sans-serif;
 	font-weight: 700;
 	font-size: 26px;
@@ -270,14 +270,12 @@ body {
 	color: black;
 }
 .web:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #2196F3;
 }
 .nav ul {
 	display: flex;
 	justify-content: space-between;
-	width: 294px;
-	height: 16px;
 	font-family: 'roboto',sans-serif;
 	font-weight: 500;
 	font-size: 14px;
@@ -286,22 +284,15 @@ body {
 	color: black;
 	list-style-type: none;
 	gap: 50px;
+	margin: 0;
 }
-.item_nav1 {
+.item_nav {
 	color:black;
 	cursor: pointer;
 	text-decoration: none;
 }
-.item_nav1:hover {
+.item_nav:hover {
 	color: #2196F3;
-}
-.item_nav2 {
-	color: black;
-	text-decoration: none;
-}
-.item_nav3 {
-	color: black;
-	text-decoration: none;
 }
 .right_nav {
 	display: flex;
@@ -310,18 +301,15 @@ body {
 	list-style-type: none;
 }
 .mail {
-	width: 135px;
-	height: 16px;
-	color:black;
+	color:#757575;
 	cursor: pointer;
-	font-family:'roboto';
+	font-family:'roboto', sans-serif;
 }
 .mail:hover {
 	color: #2196F3;
 }
 .namber {
-	width: 122px;
-	height: 16px;
+	font-family:'roboto', sans-serif;
 	color: #757575;
 }
 .hero {
@@ -357,6 +345,9 @@ body {
 	line-height: 30px;
 	letter-spacing: 0.06em;
 	border: none;
+}
+.hero_button:hover {
+	background-color:#188CE8;
 }
 .item_hero {
 	display: flex;
@@ -480,7 +471,7 @@ body {
 .list {
 display:flex;
 flex-direction: column;
-margin-left: 215px;
+margin-left: 0px;
 padding-top: 60px;
 padding-bottom: 60px;
 list-style-type: none;
