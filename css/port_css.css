@@ -227,6 +227,7 @@ svg * {
 .header {
 	background-color:#ffffff;
 	padding: 2px 0;
+  border-bottom:1px solid #ECECEC;
 }  
 .header .conteiner {
 	width: 100%;
@@ -303,10 +304,6 @@ svg * {
 .namber:hover {
     color: #2196F3;
 }
-hr {
-    height: 1px;
-    color:#ECECEC;
-}
 .button {
     display: flex;
     justify-content: center;
@@ -322,6 +319,7 @@ hr {
 }
 .list_button:hover {
     background-color: #2196F3;
+    color: #fff;
 }
 .text_button {
     font-family: 'Roboto',sans-serif;
@@ -334,8 +332,11 @@ hr {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
-    grid-row: 30px;
-    grid-column: 30px;
+    gap: 30px;
+  
+}
+.box-list {
+  border: 1px solid #EEEEEE;
 }
 .text {
     margin: 20px 24px;
@@ -359,9 +360,6 @@ hr {
 .footer {
 	width: 100%;
 	background-color: #2F303A;
-}
-.footer:hover {
-    border: 3px solid #2196F3;
 }
 .footer a {
 	text-decoration: none;
