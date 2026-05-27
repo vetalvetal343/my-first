@@ -339,7 +339,7 @@ svg * {
   border: 1px solid #EEEEEE;
 }
 .text {
-    margin: 20px 24px;
+    padding: 20px 24px;
 }
 .box_text {
     font-family: 'Roboto', sans-serif;
