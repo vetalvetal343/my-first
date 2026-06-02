@@ -239,6 +239,7 @@ body {
 	margin: -1px;
 }
 .conteiner {
+	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0px 15px;
@@ -303,8 +304,14 @@ body {
 .right_nav {
 	display: flex;
 	justify-content: space-between;
-	gap: 50px;
+	gap: 30px;
 	list-style-type: none;
+}
+.right_nav a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
 }
 .mail {
 	color:#757575;
@@ -317,6 +324,7 @@ body {
 .namber {
 	font-family:'roboto', sans-serif;
 	color: #757575;
+	cursor: pointer;
 }
 .namber:hover {
 	color: #2196F3;
@@ -460,7 +468,7 @@ body {
 }
 .hero_teem_text {
 	background-color: #ffffff;
-	margin-bottom: 94px;
+	padding-bottom: 30px;
 	margin-top: 0;
 } 
 .text {
@@ -489,7 +497,6 @@ body {
 	list-style-type: none;
 	align-items: center;
 	justify-content: center;
-	padding-bottom: 30px;
 }
 .hero_3-icon {
 	padding: 12px;
@@ -531,7 +538,6 @@ body {
 }
 .footer a {
 	text-decoration: none;
-	margin-bottom: 20px;
 }
 .mail_1 {
 	color: #757575;
@@ -581,11 +587,12 @@ list-style-type: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 10px;
 }
 .footer-icon {
 	fill: #ffffff;
 	padding: 12px;
-	background-color:#696969;
+	background-color:#6969692b;
 	border-radius: 50px;	
 }
 .footer-icon:hover {

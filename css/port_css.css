@@ -286,8 +286,14 @@ svg * {
 .right_nav {
 	display: flex;
 	justify-content: space-between;
-	gap: 50px;
+	gap: 30px;
 	list-style-type: none;
+}
+.right_nav a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
 }
 .mail {
 	color:#757575;
@@ -300,9 +306,24 @@ svg * {
 .namber {
 	font-family:'roboto', sans-serif;
 	color: #757575; 
+  cursor: pointer;
 }
 .namber:hover {
     color: #2196F3;
+}
+.right_nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row-reverse;
+	gap: 10px;
+}
+.icon {
+	display: block;
+	fill: #757575;
+}
+.icon:hover {
+	fill: #2196F3;
 }
 .button {
     display: flex;
@@ -365,7 +386,7 @@ svg * {
 	text-decoration: none;
 }
 .mail_1 {
-	color:#ffffff;
+	color:#757575;
 }
 .mail_1:hover {
 	color: #2196F3;
@@ -392,6 +413,38 @@ list-style-type: none;
 	letter-spacing: 0.03em;
 	color:#fff;
 	margin-bottom: 9px;
+}
+.footer_flex {
+	display: flex;
+	gap: 70px;
+}
+.footer_title {
+	font-family:'roboto',sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color:#fff;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+.footer_list-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+.footer-icon {
+	fill: #ffffff;
+	padding: 12px;
+	background-color:#6969692b;
+	border-radius: 50px;	
+}
+.footer-icon:hover {
+	background-color: #2196F3;
+	border-radius: 50px;
+	fill: #ffffff;
 }
 
 
