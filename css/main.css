@@ -346,8 +346,10 @@ body {
 .hero {
 	background-color: #2f303a42;
 	background-image: url(../img/new/Img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	max-width: 100%;
-	background-color:#2F303A;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -599,5 +601,22 @@ list-style-type: none;
 	background-color: #2196F3;
 	border-radius: 50px;
 	fill: #ffffff;
+}
+/* адаптив */
+
+@media (max-width:768px) {
+.right_nav {
+flex-direction: column;
+gap: 10px;
+}
+.header a {
+	padding: 0;
+}
+.header .conteiner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 84px;
+}
 }
 
