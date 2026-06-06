@@ -358,11 +358,10 @@ body {
 }
 .hero_1-fon {
 	background-color: #F5F4FA;
-	width: 270px;
-	height: 120px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .hero_text {
 	width: 696px;
@@ -459,13 +458,9 @@ body {
 	justify-content: space-around;
 	list-style-type: none;
 	gap: 30px;
-}
-.teem {
-	width: 270px;
-	height: 368px;
+	max-width: 100%;
 }
 .teem img {
-	width: 270px;
 	margin-bottom: 0;
 }
 .hero_teem_text {
@@ -608,6 +603,14 @@ list-style-type: none;
 .right_nav {
 flex-direction: column;
 gap: 10px;
+padding-right: 10px;
+}
+.left-center {
+	padding-left: 10px;
+	gap: 88px;
+}
+.header {
+	padding: 0px 15px;
 }
 .header a {
 	padding: 0;
@@ -617,6 +620,17 @@ gap: 10px;
 	align-items: center;
 	justify-content: center;
 	gap: 84px;
+}
+.hero_4-list {
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+.hero_teem {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+.hero_2 {
+	display: none;
 }
 }
 
