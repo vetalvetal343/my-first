@@ -238,6 +238,9 @@ body {
 	opacity: 0;
 	margin: -1px;
 }
+.burger {
+	display: none;
+}
 .conteiner {
 	width: 100%;
 	max-width: 1200px;
@@ -364,7 +367,6 @@ body {
 	flex-wrap: wrap;
 }
 .hero_text {
-	width: 696px;
 	font-family: 'roboto',sans-serif;
 	font-weight: 900;
 	font-size: 44px;
@@ -476,7 +478,7 @@ body {
 	letter-spacing: 0.03em;
 	color:#212121;
 	text-align: center;
-	padding: 30px 66px 10px;
+	padding: 30px 10px 10px;
 	white-space: nowrap;
 }
 .item-text_2 {
@@ -599,6 +601,18 @@ list-style-type: none;
 }
 /* адаптив */
 
+@media (max-width: 900px){
+	.hero_teem {
+		gap: 10px;
+	}
+}
+@media (max-width:780px){
+	.hero_4-list {
+	align-items: center;
+	justify-content: center;
+	}
+}
+
 @media (max-width:768px) {
 .right_nav {
 flex-direction: column;
@@ -619,8 +633,11 @@ padding-right: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 84px;
 }
+.nav {
+	gap: 50px;
+}
+
 .hero_4-list {
 	flex-wrap: wrap;
 	max-width: 100%;
@@ -632,5 +649,84 @@ padding-right: 10px;
 .hero_2 {
 	display: none;
 }
+
+/* медиа 480 */
+
+}
+@media (max-width:480px){
+	.nav {
+		display: none;
+	}
+	.right_nav {
+		display: none;
+	}
+	.left-center {
+		display: flex;
+		padding: 30px 330px 30px 30px;
+		width: 134px;
+		height: 28px;
+	}
+	.hero_text {
+	font-family: 'roboto',sans-serif;
+	font-weight: 900;
+	font-size: 26px;
+	line-height: 42px;
+	margin-bottom: 30px;
+	overflow: wrap;
+	}
+	
+	.item_hero {
+		flex-direction: column;
+	}
+	.hero_teem {
+		display:flex;
+		flex-direction: column;
+	}
+	.hero_4-list {
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+	}
+	.footer_flex {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 60px;
+	}
+	.list {
+		padding-bottom: 0;
+	}
+	.footer_title {
+		padding-top: 0;
+	}
+	.footer_list-icon {
+		padding-bottom: 70px;
+	}
+	.burger {
+		display: flex;
+		position: relative;
+		z-index: 50;
+		align-items: center;
+		justify-content: flex-end;
+		width: 30px;
+		height: 18px;
+	}
+	.burger span {
+		height: 2px;
+		width: 100%;
+		background-color: #212121;
+	}
+	.burger::after, .burger::before {
+		content: '';
+		position: absolute;
+		height: 2px;
+		width: 100%;
+		background-color: #212121;
+	}
+	.burger::after {
+		top: 0;
+	}
+	.burger::before {
+		bottom: 0;
+	}
 }
 
