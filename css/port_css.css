@@ -303,6 +303,9 @@ svg * {
 .mail:hover {
 	color: #2196F3;
 }
+.mail:hover .icon {
+	fill: #2196F3;
+}
 .namber {
 	font-family:'roboto', sans-serif;
 	color: #757575; 
@@ -310,6 +313,9 @@ svg * {
 }
 .namber:hover {
     color: #2196F3;
+}
+.namber:hover.icon {
+    fill: #2196F3;
 }
 .right_nav-list {
 	display: flex;
