@@ -59,6 +59,9 @@ body,
 :where(ul[class]) {
   list-style: none;
 }
+ul {
+	list-style: none;
+}
 
 :where(address[class]) {
   font-style: normal;
@@ -244,6 +247,7 @@ body {
 .conteiner {
 	width: 100%;
 	max-width: 1200px;
+	min-width: 480px;
 	margin: 0 auto;
 	padding: 0px 15px;
 }
@@ -385,8 +389,7 @@ body {
 }
 .hero_button {
 	background-color: #2196F3;
-	width: 200px;
-	height: 50px;
+	padding: 0.5em 1.6em;
 	border-radius: 4px;
 	color: #ffffff;
 	font-family: 'roboto',sans-serif;
@@ -529,13 +532,20 @@ body {
 }
 .hero_4-item {
 	fill: #AFB1B8;
-	border: 1px solid #AFB1B8;
-	border-radius: 4px;
 	padding: 16px 32px;
 }
 .hero_4-item:hover {
 	fill: #2196F3;
-	border: 1px solid #2196F3;
+}
+.hero_4-border {
+	display: flex;
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
+	padding: 16px;
+}
+.hero_4-border:hover {
+color: #188CE8;
+
 }
 .footer {
 	width: 100%;
@@ -613,6 +623,21 @@ list-style-type: none;
 	}
 }
 @media (max-width:780px){
+	.conteiner {
+		max-width: 768px;
+	}
+	.section .hero_1{
+	padding: 60px 0px;
+	}
+	.section .hero_2 {
+	padding: 60px 0px;
+	}
+	.section .hero_3 {
+	padding: 60px 0px;
+	}
+	.section .hero_4 {
+	padding: 60px 0px;
+	}
 	.hero_4-list {
 	align-items: center;
 	justify-content: center;
@@ -630,25 +655,30 @@ padding-right: 10px;
 	gap: 88px;
 	padding-right: 84px;
 }
-.header {
-	padding: 0px 15px;
-}
 .header a {
 	padding: 0;
 }
 .header .conteiner {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content:center;
 }
 .nav {
 	gap: 50px;
 }
+.hero {
+	background-color: #2f303a42;
+	background-image: url(../img/new/480\ img.jpg);
+}
 
 .hero_4-list {
-	flex-wrap: wrap;
-	max-width: 100%;
-}
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}	
 .hero_teem {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -661,6 +691,9 @@ padding-right: 10px;
 
 }
 @media (max-width:480px){
+	.conteiner {
+		max-width: 480px;
+	}
 	.nav {
 		display: none;
 	}
@@ -672,6 +705,10 @@ padding-right: 10px;
 		padding: 30px 330px 30px 30px;
 		width: 134px;
 		height: 28px;
+	}
+	.hero {
+	background-color: #2f303a42;
+	background-image: url(../img/new/480\ img.jpg);
 	}
 	.hero_text {
 	font-family: 'roboto',sans-serif;
