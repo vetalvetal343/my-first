@@ -527,24 +527,26 @@ body {
 }
 .hero_4-list {
 	display: flex;
+	flex-wrap: wrap;
 	list-style-type: none;
 	gap: 30px;
 }
 .hero_4-item {
 	fill: #AFB1B8;
-	padding: 16px 32px;
 }
 .hero_4-item:hover {
 	fill: #2196F3;
 }
 .hero_4-border {
 	display: flex;
+	justify-content: center;
 	border: 1px solid #AFB1B8;
 	border-radius: 4px;
+	flex: 1;
 	padding: 16px;
 }
 .hero_4-border:hover {
-color: #188CE8;
+ border-color: #188CE8;
 
 }
 .footer {
